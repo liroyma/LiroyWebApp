@@ -24,14 +24,39 @@
 
 .project
 {
-  background-image: url('http://goo.gl/0sX3jq');
+  background-image: url('../img/dontworry120.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  height: 160px;
+  border-radius: 10px;
 }
 
-.project .container
+.thumbnail
 {
+  border-radius: 10px;
+  height: 150px;
+}
 
+.thumbnail:hover
+{
+  
+}
+.thumbnail h1
+{
+  color: #00b0ff;
+
+}
+.thumbnail img
+{
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+
+}
+
+.thumbnail p
+{
+  height: 40px;
+  overflow: hidden;
 }
 
 .learn-more {
